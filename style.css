@@ -63,3 +63,65 @@ main .cynthia {
     height: auto; /* Maintain aspect ratio */
     /* Set a maximum width if necessary */
 }
+/* CSS Styles */
+.portfolio-content {
+    text-align: center;
+}
+
+.pdf-link a {
+            font-weight: bold;
+            color: red;
+        }
+        /* CSS Styles */
+        .project-title {
+           text-decoration: underline;
+            font-size: 40px; /* Adjust the font size as needed */
+            font-weight: bold;
+            position: absolute;
+            top: 950px; /* Adjust the top position as needed */
+            left: 10px; /* Adjust the left position as needed */
+            color: White; /* Adjust the color as needed */
+            z-index: 1; /* Ensure the title is above the image */
+        }
+        /* CSS Styles */
+      .game-design-title {
+          position: absolute;
+          bottom: -880px; /* Adjust as needed */
+          left: 10px; /* Adjust as needed */
+          z-index: 1;
+      }
+
+      .game-design-title h3 {
+          text-decoration: underline;
+          font-size: 40px; /* Adjust the font size as needed */
+          font-weight: bold;
+          color: #ffffff; /* Adjust the color as needed */
+          margin: 0;
+      }
+
+
+      .video-section {
+          margin-top: 60px;
+          margin-bottom: 60px; /* Add margin bottom to create space between projects */
+      }
+
+
+.web-design {
+    margin-top: 50%; /* Adjust as needed */
+}
+.Web.design {
+    position: relative;
+    width: 900px; /* Adjust as needed */
+}
+
+.Web.design h5 {
+    text-decoration: underline;
+    position: absolute;
+    bottom: 530px; /* Adjust as needed */
+    left: -380px; /* Adjust as needed */
+    margin: 0;
+    font-size: 40px; /* Adjust as needed */
+    font-weight: bold;
+    color: #ffffff; /* Adjust as needed */
+    z-index: 1;
+}
